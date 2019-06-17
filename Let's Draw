@@ -1,7 +1,8 @@
 import turtle
 wn = turtle.Screen()
-wn.bgcolor("purple")
+wn.bgcolor("#E0FFFF")
 mom = turtle.Turtle()
+mom.color("#0000CD")
 mom.shape("circle")
 thy = int(input())
 i=1
