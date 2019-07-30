@@ -4,7 +4,7 @@ wn.bgcolor("#E0FFFF")
 mom = turtle.Turtle()
 mom.shape("arrow")
 thuy = int(input())
-mom.speed(600000000000000000000000000000000000000000)
+mom.speed(10)
 thy = int(input("Pick a number:  " ))
 if thy == 1:
     for comi in ["black", "white", "red", "lime", "blue"]:
