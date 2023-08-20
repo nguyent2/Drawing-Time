@@ -1,41 +1,41 @@
-#Author: Thy H. Nguyen
+#Author: Molena Nguyen
 
 import turtle
 wn = turtle.Screen()
 wn.bgcolor("#E0FFFF")
-mom = turtle.Turtle()
-mom.shape("arrow")
-thuy = int(input())
-mom.speed(10)
-thy = int(input("Pick a number:  " ))
-if thy == 1:
-    for comi in ["black", "white", "red", "lime", "blue"]:
-        mom.color(comi)
-        for i in range(thy):
-            mom.right(40)
-            mom.forward(50)
-            mom.stamp()
-            mom.backward(thy)
-            mom.dot()
+turtle1 = turtle.Turtle()
+turtle1.shape("arrow")
+turtle2 = int(input())
+turtle1.speed(10)
+turtle3 = int(input("Pick a number:  " ))
+if turtle3 == 1:
+    for a_color in ["black", "white", "red", "lime", "blue"]:
+        turtle1.color(a_color)
+        for i in range(turtle3):
+            turtle1.right(40)
+            turtle1.forward(50)
+            turtle1.stamp()
+            turtle1.backward(turtle3)
+            turtle3.dot()
             i += 1
-elif thy == 2:
-    for comi in ["yellow", "aqua", "magenta", "silver", "gray"]:
-        mom.color(comi)
-        for i in range(thy):
-            mom.right(40)
-            mom.forward(50)
-            mom.stamp()
-            mom.backward(thy)
-            mom.dot()
+elif turtle3 == 2:
+    for a_color in ["yellow", "aqua", "magenta", "silver", "gray"]:
+        turtle1.color(a_color)
+        for i in range(turtle3):
+            turtle1.right(40)
+            turtle1.forward(50)
+            turtle1.stamp()
+            turtle1.backward(turtle3)
+            turtle1.dot()
             i += 1
 else:
-   for comi in ["maroon", "olive", "green", "purple", "teal", "navy"]:
-        mom.color(comi)
-        for i in range(thy):
-            mom.right(180)
-            mom.forward(50)
-            mom.stamp()
-            mom.backward(thy)
-            mom.dot()
+   for a_color in ["maroon", "olive", "green", "purple", "teal", "navy"]:
+        turtle1.color(a_color)
+        for i in range(turtle3):
+            turtle1.right(180)
+            turtle1.forward(50)
+            turtle1.stamp()
+            turtle1.backward(turtle3)
+            turtle1.dot()
             i +=1
 wn.exitonclick()
